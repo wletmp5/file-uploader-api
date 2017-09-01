@@ -15,6 +15,7 @@ Write a scheduler in the same app to poll for new items in the last hour and sen
 2. in terminal, run "mvn package" command in the application directory
 3. go to application/target directory then run "java -jar file-uploader-api-0.0.1-SNAPSHOT.jar"
 4. test the application (you can use any utility to test the APIs)
+note* polling of files is configured to run every 10 seconds
 
 a. upload a file: 
     url: localhost:8080/documents/
